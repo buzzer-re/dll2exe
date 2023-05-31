@@ -13,6 +13,6 @@ setup(
         'lief'
     ],
     author='Buzzer',
-    description='dll2exe is a Python script that converts PE files to DLLs, allowing custom entry point functions.'
+    long_description='dll2exe is a Python script that converts PE files to DLLs, allowing custom entry point functions.'
     
 )

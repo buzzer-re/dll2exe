@@ -1,0 +1,2 @@
+[console_scripts]
+dll2exe = dll2exe.dll2exe:main

@@ -1,0 +1,8 @@
+setup.py
+pe2dll/__init__.py
+pe2dll/pe2dll.py
+pe2dll.egg-info/PKG-INFO
+pe2dll.egg-info/SOURCES.txt
+pe2dll.egg-info/dependency_links.txt
+pe2dll.egg-info/entry_points.txt
+pe2dll.egg-info/top_level.txt

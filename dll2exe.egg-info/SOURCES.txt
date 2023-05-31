@@ -1,0 +1,8 @@
+setup.py
+dll2exe/__init__.py
+dll2exe/dll2exe.py
+dll2exe.egg-info/PKG-INFO
+dll2exe.egg-info/SOURCES.txt
+dll2exe.egg-info/dependency_links.txt
+dll2exe.egg-info/entry_points.txt
+dll2exe.egg-info/top_level.txt
