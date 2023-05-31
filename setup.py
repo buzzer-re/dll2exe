@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'p2dll = pe2dll.main:main'
+            'pe2dll = pe2dll.pe2dll:main'
         ]
     },
     install_requirements=[
