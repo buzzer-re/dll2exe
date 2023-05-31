@@ -16,7 +16,7 @@ def log(msg: str):
     print(f"[+] {msg} [+]") 
 
 def main():
-    parser = argparse.ArgumentParser("pe2dll", "Convert a DLL into a EXE choosing any exported function as your entrypoint")
+    parser = argparse.ArgumentParser("dll2exe", "Convert a DLL into a EXE choosing any exported function as your entrypoint")
     parser.add_argument("PE")
     parser.add_argument("--output", "-o", help="Output filename, default: filename.exe")
     parser.add_argument("--entrypoint", "-e", help="Exported function name to be used as new entrypoint, default: DllEntryPoint")
@@ -69,6 +69,7 @@ def main():
         
         if not found:
             log_error(f"Export {args.entrypoint} does not exist!")
+            sys.exit(1)
 
     log(f"Saving as {output_name}")
     pe.write(output_name)
