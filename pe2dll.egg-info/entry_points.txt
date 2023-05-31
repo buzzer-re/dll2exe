@@ -1,2 +1,0 @@
-[console_scripts]
-pe2dll = pe2dll.pe2dll:main

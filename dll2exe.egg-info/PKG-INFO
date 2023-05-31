@@ -1,6 +1,0 @@
-Metadata-Version: 2.1
-Name: dll2exe
-Version: 1.0.0
-Author: Buzzer
-
-dll2exe is a Python script that converts PE files to DLLs, allowing custom entry point functions.

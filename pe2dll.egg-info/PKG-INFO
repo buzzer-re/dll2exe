@@ -1,5 +1,0 @@
-Metadata-Version: 2.1
-Name: pe2dll
-Version: 1.0.0
-Summary: pe2dll is a Python script that converts PE files to DLLs, allowing custom entry point functions.
-Author: Buzzer
