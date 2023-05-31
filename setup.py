@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='dll2exe',
+    name='dll2exe-cli',
     version='1.0.0',
     packages=find_packages(),
     entry_points={
