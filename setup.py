@@ -9,7 +9,7 @@ setup(
             'dll2exe = dll2exe.dll2exe:main'
         ]
     },
-    install_requirements=[
+    requirements =[
         'lief'
     ],
     author='Buzzer',
